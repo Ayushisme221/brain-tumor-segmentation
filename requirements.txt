@@ -1,0 +1,15 @@
+torch
+numpy
+nibabel
+matplotlib
+scikit-learn 
+
+
+
+
+Clone/pull the repo, cd into the project root folder (Brain-Tumor-Segmentation/).
+Create and activate a venv: python -m venv venv → venv\Scripts\activate
+pip install -r requirements.txt
+Download BraTS2020, note the folder path.
+Open src/train.py, edit the DATA_DIR = r"..." line to their actual path.
+From the project root, run:
